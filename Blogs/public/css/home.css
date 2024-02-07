@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    font-family: 'poppins', sans-serif;
+}
+
+::selection{
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    background: #454242;
+    z-index: 9;
+}
+
+.links-container{
+    display: flex;
+    list-style: none;
+}
+
+.link{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f9f5f5;
+    font-size: 20px;
+    font-weight: 700;
+}
+.link:hover{
+    border-bottom: 5px white;
+    color: #f61d5a;
+}
+.navbar .logo{
+    
+    padding-left: 3px;
+    height: 50px;
+    width: 30px;
+    border-radius: 50px;
+    padding-left: 2px;
+}
+.navbar h4{
+    color: #ec0f55;
+}
+
+.header{
+    
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: url(https://m.media-amazon.com/images/G/31/selldot/blogs/Things-to-keep-in-mind2.png);
+    background-size: cover;
+    background-position:bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.heading{
+    color: #fa93d2;
+    text-transform: capitalize;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 80px;
+}
+
+.heading .small{
+    text-align: end;
+    margin-left: 100px;
+    display: block;
+    font-size: 40px;
+    font-family: 'Alef', sans-serif;
+
+}
+
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #f75151;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(237, 60, 113, 0.7);
+    color: #f8f7f7;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blogs-section{
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.blog-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-overview{
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+
+.btn.dark{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*background-color:#f8c3c3;
+    background: linear-gradient(300deg, #add3e0, #fa93a2, #beb8f9d3);*/
+    background: linear-gradient(300deg, #e40a4c, #f32e4c, #fe4b5ad3);
+    
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+}
+@media (max-width:500px) {
+    .header {
+        margin-top: 10px;
+        width: 100%;
+        height: calc(100vh - 70px);
+        /*background: url(https://i.pinimg.com/564x/73/7c/c9/737cc9c4f470945f2d5c21ce040ec406.jpg);*/
+        background: url(../img/homeimage4.avif);
+       /* background: url(https://i.pinimg.com/564x/10/72/2f/10722f60716d5112d8f95f22774764aa.jpg);*/
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .heading {
+        color: #ba7171;
+        text-transform: capitalize;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 70px;
+        margin-bottom: 30px; 
+        text-align: center;
+       
+       
+        position: relative;
+    }
+    .heading .small{
+       
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        line-height: 60px;
+       margin-left: 40px;
+    }
+    .heading .no-fill{
+        font-style: italic;
+        line-height: 60px;
+        color: transparent;
+        -webkit-text-stroke: 2px #ee8d8d;
+    
+    }
+    .btn{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: rgba(168, 160, 160, 0.7);
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+
+    
+}

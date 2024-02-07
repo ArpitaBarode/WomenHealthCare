@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/tracker.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Croissant+One&family=EB+Garamond&family=Kanit:ital,wght@1,500&family=Martian+Mono:wght@800&family=Permanent+Marker&family=Poppins&display=swap"
+      rel="stylesheet">
+ 
+  <link
+        href="https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Croissant+One&family=EB+Garamond&family=Kanit:ital,wght@1,500&family=Martian+Mono:wght@800&family=Permanent+Marker&family=Poppins&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+  <div class="main1">
+    <!--<div class="nav">
+        <h4><img id="logo" src="./img/logo_girl.jpg">WombWhishpers</h4>
+
+        <div class="nav-part2">
+            <a href="mainpage.html">Home</a>
+            <a href="yoga.html">Yoga</a>
+            <a href="chatbot.html">Chatbot</a>
+   
+            <a href="Blogs/public/home.html">Blogs</a>
+            <a href="Donation/index.html">Donate</a>
+           
+           
+   
+
+            <i class="ri-menu-line"></i>
+        </div>
+    </div>-->
+    <header class="header">
+      <h2><img src="./img/logo_girl.jpg" alt=" logo" class="logo" />WombWhishpers</h2>
+
+
+      <nav class="navbar">
+          <ul class="navbar-list">
+              <li><a class="navbar-link" href="mainpage.html">Home</a></li>
+              
+              <li><a class="navbar-link" href="chatbot.html">Chatbot</a></li>
+         
+              <li><a class="navbar-link" href="Blogs/public/home.html">Blogs</a></li>
+              <li><a class="navbar-link" href="yoga.html">Yoga</a></li>
+              <li><a class="navbar-link" href="Donation/index.html">Donate</a></li>
+            
+              
+          
+          </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+          <!--<ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>-->
+          <i name="menu-outline" class="ri-menu-line" class="mobile-nav-icon"></i>
+          <i name="close-outline" class="ri-close-line" class="mobile-nav-icon"></i>
+      </div>
+  </header>
+<main class="flo-content flo-content--fixed-header">
+<section class="flo-section flo-calculator-banner">
+<div class="flo-calculator-section__container">
+<div class="flo-calculator-banner__narrow-container">
+  
+<h1 class="flo-calculator-banner__title">Period calculator: Predict when your next period will arrive</h1>
+      <div class="flo-calculator-banner__description"><p>Being able to predict when your next period will arrive can save you a lot of hassle and help you to understand your own menstrual cycle. Predict your next period now with Flo’s easy-to-use period calculator.</p></div>
+  </div>
+</div>
+</section>
+<div class="flo-calculator-section__container">
+<div class="flo-content__general">
+  <div class="flo-content__main">
+                                      
+                                                                                                          
+
+<section class="flo-section flo-calculator-info">
+<div class="flo-section__container">
+<div class="flo-calculator-info__info-panel">
+<div class="flo-calculator-info__info-panel-top">
+<div class="flo-calculator-info__info-panel-date">
+
+            
+              <div class="flo-calculator-info__info-panel-date--item">Updated
+      <span>
+                      1 October 2023
+                    </span>
+      <span class="separator">|</span>
+    </div>
+            
+  <div class="flo-calculator-info__info-panel-date--item">Published 
+    <span>
+                      24 September 2022
+                  </span>
+  </div>
+</div>
+
+      </div>
+<div class="flo-calculator-info__info-panel-authors">
+                                                      
+                                            
+    <div class="flo-calculator-info__info-panel-author">
+                      <img decoding="async" src="img/doctor.jfif" alt="Dr. Amanda Kallen">
+                    <div class="flo-calculator-info__info-panel-author-info">Medically reviewed by <a href="/about-us/amanda-kallen">Dr. Shini Mandliya</a>, Associate professor of obstetrics, gynecology, and reproductive endocrinology, Yale University School of Medicine, Connecticut, US</div>
+    </div>
+                                        <div class="flo-calculator-info__info-panel-author">
+                    <div class="flo-calculator-info__info-panel-author-info">
+                          Written by <span>Sarah Biddlecombe</span> 
+                      </div>
+    </div>
+                </div>
+</div>
+</div>
+<div class="container">
+  <div class="container-input">
+    <div class="container-input-date">
+    <label for="date" class="calculator-date-label">Enter the first day of your period</label>
+    <input type="text"  class="calculator-date__input" id="input" name="date" onfocus="(this.type='date')" />
+
+  </div>
+  <div class="container-input-day">
+  <label for="period" class="calculator-date__period-label">Enter the number of day period</label>
+    <input type="text" id="period" placeholder="type here......"/>
+    </div>
+    
+  </div>
+ <div class="form-button">
+     <button id="button">See results</button>
+ </div>
+</div >
+<div class="container-result">
+  <div class="container-result-date">
+    <label>Your period is due: </label>
+   
+    <label style="color:rgb(219, 47, 76) ;font-weight:600"   id="result"></label>
+    
+  </div>
+  <br>
+  <br>
+  <div class="container-result-ovulation-date">
+    <label> Your ovulation day:</label>
+    <label style="color:rgb(219, 47, 76)  ;font-weight:600"   id="result-ovulation"></label>
+    
+  </div>
+  <br>
+  <br>
+  <div class="container-result-fertility-period">
+    <label> Your fertility period:</label>
+    <label style="color:rgb(219, 47, 76)  ;font-weight:600"  id="result-fertility"></label>
+    
+    <label  style="color:rgb(219, 47, 76) "  id="result-fertility2"></label>
+  </div>
+  <br>
+  <br>
+</div>
+<div class="myimg">
+  <img src="img/newimaegirl.avif" id="imgc"></img>
+</div>
+
+          
+
+<div class="flo-content__aside">
+            <div class="flo-content__aside-content" style="display: block; height: auto;">
+                              <h4 class="flo-content__aside-title" tabindex="0">In this article</h4>
+                <ol class="flo-content__aside-list" tag-size="h2">
+                  <li class="flo-content-links__list-item active">
+                    <a class="flo-content-links__list-item-link" href="#how-long-is-my-cycle?">How long is my cycle?
+
+                </a>
+              </li>
+                <li class="flo-content-links__list-item">
+                  <a class="flo-content-links__list-item-link" href="#what-are-the-signs-of-your-period-coming?">What are the signs of your<br> period coming?</a>
+                </li>
+                <li class="flo-content-links__list-item">
+                  <a class="flo-content-links__list-item-link" href="#why-is-my-period-late?">Why is my period late?</a></li>
+                  
+                </ol>
+             </div>
+          </div>
+
+<section id="sec1">
+  <div id="how-long-is-my-cycle?">
+    <h2>How long is my cycle?</h2>
+  </div>
+</section> 
+<section class="flo-narrow-text" type="new" use-checkbox-list="" hide-header="false">
+  <div class="flo-section__container">
+    <p>Just like the length of a period, the length of a menstrual cycle will naturally vary from person to person. “A normal <a href="https://www.acog.org/womens-health/infographics/the-menstrual-cycle" class="external-link"><u>menstrual cycle</u></a> — from day one, which is the first day of bleeding [full bleeding, not spotting], all the way up to the next period — can be anywhere from <a href="https://health.clevelandclinic.org/why-is-my-period-lasting-so-long/" class="external-link"><u>21 to 35 days</u></a>,” explains Dr. Twogood.&nbsp;</p><p>If you’re struggling to use a menstrual cycle calendar because your periods are a bit, well, all over the place, don’t panic. It’s not necessarily a cause for concern. Fluctuations in the length of your menstrual cycle are incredibly common. In fact, research shows that between <a href="https://www.nichd.nih.gov/health/topics/menstruation/conditioninfo/irregularities" class="external-link"><u>14% and 25% of women have irregular menstrual cycles</u></a>. As Dr. Twogood explains, these fluctuations can happen for <a href="https://www.nhs.uk/conditions/irregular-periods/" class="external-link"><u>all kinds of reasons</u></a>. “Changes in lifestyle, diet, exercise, circadian rhythm, stress, weight gain, or weight loss are all contributors,” she says. “<a href="https://www.mayoclinic.org/diseases-conditions/pcos/symptoms-causes/syc-20353439" class="external-link"><u>One reason for irregular ovulation</u></a> is <a href="https://flo.health/pcos"><u>PCOS</u></a>. Another is <a href="https://www.mayoclinic.org/diseases-conditions/perimenopause/symptoms-causes/syc-20354666" class="external-link"><u>perimenopause</u></a> or even <a href="https://www.mayoclinic.org/diseases-conditions/premature-ovarian-failure/symptoms-causes/syc-20354683" class="external-link"><u>premature ovarian insufficiency</u></a>.” If you’re experiencing irregular periods, it could be <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/12/menstruation-in-girls-and-adolescents-using-the-menstrual-cycle-as-a-vital-sign" class="external-link"><u>a good idea</u></a> to get checked by your health care provider.&nbsp;</p>
+    </div>
+  </section>
+                                           
+                                                
+  
+
+
+  <div class="image__container">
+    <img  class="hiimg" src="img/cal2.jpg"></img>
+  </div>
+
+  <section class="flo-narrow-text" type="new" use-checkbox-list="" hide-header="false">
+  <div class="flo-section__container">
+    <h2 id="what-are-the-signs-of-your-period-coming?">What are the signs of your period coming?</h2>
+    </div>
+  </section>
+  <section class="flo-narrow-text" type="new" use-checkbox-list="" hide-header="false">
+  <div class="flo-section__container">
+    <p>Your own body can often be a very accurate period predictor, as it will likely give you a number of <a href="https://flo.health/menstrual-cycle/health/period/signs-your-period-is-coming"><u>signals to let you know your next period is on the way</u></a>, which is pretty handy. These signals are very common. Anywhere between <a href="https://clinicalgate.com/premenstrual-syndrome-and-menstrual-related-disorders/" class="external-link"><u>80% and 90% of women</u></a> will experience them.&nbsp;</p><p>But why do we get these signals? “It’s thought to be due to the <a href="https://www.nhsinform.scot/healthy-living/womens-health/girls-and-young-women-puberty-to-around-25/periods-and-menstrual-health/premenstrual-syndrome-pms" class="external-link"><u>normal fluctuations of hormones</u></a> at the end of the luteal phase [the days between ovulation and your period],” explains Dr. Twogood. “Both <a href="https://www.nhs.uk/conditions/periods/fertility-in-the-menstrual-cycle/" class="external-link"><u>progesterone and estrogen drop significantly right before a period starts</u></a> — that’s what causes a period!”&nbsp;</p><p>If these symptoms are distressing or bothersome, then they’re categorized as <a href="https://www.mayoclinic.org/diseases-conditions/premenstrual-syndrome/symptoms-causes/syc-20376780" class="external-link"><u>premenstrual syndrome (PMS</u></a>), which is also very common. Researchers reckon that around <a href="https://www.mayoclinic.org/diseases-conditions/premenstrual-syndrome/symptoms-causes/syc-20376780" class="external-link"><u>three in every four women</u></a> have experienced PMS at some point. PMS symptoms will typically arrive in the <a href="https://www.acog.org/womens-health/faqs/premenstrual-syndrome" class="external-link"><u>five days</u></a> leading up to your next period.&nbsp;</p><p>Wondering if you might have PMS? If you’re experiencing some of the symptoms below, and they’re bothersome or interfering with your life, you could be experiencing PMS.</p>
+    </div>
+  </section>
+  <section class="flo-narrow-text" type="new" use-checkbox-list="" hide-header="false">
+  <div class="flo-section__container">
+    <h2 id="why-is-my-period-late?">Why is my period late?</h2>
+    </div>
+  </section>
+  <section class="flo-narrow-text" type="new" use-checkbox-list="" hide-header="false">
+  <div class="flo-section__container">
+    <p>If you’ve used the period calculator, but your period hasn’t arrived as expected, or you’ve missed the date planned on your menstrual cycle calendar, then <a href="https://health.clevelandclinic.org/why-is-my-period-late/" class="external-link"><u>your period is probably late</u></a>. This can be understandably distressing, but try not to worry. This isn’t necessarily a cause for concern. “In terms of how many days ‘late’ is considered abnormal <a href="https://health.clevelandclinic.org/why-is-my-period-late/" class="external-link"><u>depends on the individual</u></a>,” explains Dr. Twogood. For example, if your period comes like clockwork every 28 days, then it might be considered late if it doesn’t arrive by 30 days. However, if your period is a little more variable and arrives every 28 to 31 days, then a period arriving on day 30 might not be late for you. “If periods are consistently late, irregular, or have no pattern to them, that’s <a href="https://health.clevelandclinic.org/why-is-my-period-late/" class="external-link"><u>a good reason for an evaluation</u></a> [with your health care provider],” Dr. Twogood adds.&nbsp;</p><p>As we’ve already seen, <a href="https://www.nichd.nih.gov/health/topics/menstruation/conditioninfo/irregularities" class="external-link"><u>14% to 25% of women have irregular menstrual cycles</u></a>, so you’re certainly not alone if your period arrives late (or early).&nbsp;</p><p>Of course, there could be <a href="https://flo.health/getting-pregnant/trying-to-conceive/signs-of-pregnancy/how-late-can-a-period-be-without-being-pregnant"><u>one obvious reason</u></a> for a late period. If someone has had sex, “then a late period for them <a href="https://www.nhs.uk/conditions/stopped-or-missed-periods/" class="external-link"><u>could mean a pregnancy</u></a> and a reason to take <a href="https://flo.health/getting-pregnant/trying-to-conceive/pregnancy-tests"><u>a pregnancy test</u></a>,” Dr. Twogood explains. Again, if your periods are late and irregular, it could be worth checking in with your health care provider.</p>
+    </div>
+  </section>
+
+</main>
+<script type="text/javascript" >
+var input = document.getElementById("input");
+  var period = document.getElementById("period");
+  var button = document.getElementById("button");
+  function periodDue(){
+    var showInp = input.value;
+    var showPer = period.value;
+    var date   = new Date(showInp);
+    var day = date.getDate();
+    var periodDay = parseInt(showPer);
+    var periodDue = new Date(date.setDate(day+periodDay));
+    var periodDueDate = periodDue.toDateString();
+    var result = document.getElementById("result");
+    result.innerHTML = periodDueDate;
+  }
+  function ovulationDay(){
+    var showInp = input.value;
+    var showper = period.value;
+    var date   = new Date(showInp);
+    var day = date.getDate();
+    var periodDay = parseInt(showper);
+    var ovulationDay = new Date(date.setDate(day + periodDay-14));
+    var ovulationDayDate = ovulationDay.toDateString();
+    var result = document.getElementById("result-ovulation");
+    result.innerHTML =ovulationDayDate
+  }
+  function fertilityperiod(){
+    var showInp = input.value;
+    var showper = period.value;
+    var date   = new Date(showInp);
+    var day = date.getDate();
+    var periodDay = parseInt(showper);
+    var fertilityperiod = new Date(date.setDate(day + periodDay-17));
+    var fertilityperiodDate = fertilityperiod.toDateString();
+    var result = document.getElementById("result-fertility");
+    result.innerHTML = `From ${fertilityperiodDate}`;
+
+  }
+  function fertilityperiod2(){
+    var showInp = input.value;
+    var showper = period.value;
+    var date   = new Date(showInp);
+    var day = date.getDate();
+    var periodDay = parseInt(showper);
+    var fertilityperiod = new Date(date.setDate(day + periodDay-14));
+    var fertilityperiodDate = fertilityperiod.toDateString();
+    var result = document.getElementById("result-fertility");
+    result.innerHTML = `TO ${fertilityperiodDate}`;
+
+  }
+  button.addEventListener("click",()=>{
+    periodDue();
+    ovulationDay();
+    fertilityperiod();
+    fertilityperiod2();
+  })
+
+
+</script>
+<script src="scriptp.js"></script>
+
+</body>
+
+</html>

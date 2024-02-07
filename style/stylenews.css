@@ -1,0 +1,56 @@
+
+.card:hover{
+    box-shadow: 6px 6px 6px rgba(19, 19, 20, 0.33);
+    transform: scale(1.05) perspective(0px);
+}
+h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(209, 44, 132);
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+.navbar{
+    background-color: rgb(243, 120, 152);
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#home{
+    color:white;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-link:hover{
+    text-decoration:none;
+    color:grey;
+    border-radius: 25px;
+    padding: 8px 8px;
+    background-color: white;
+    font-size: 20px;
+
+}
+#home:hover{
+    color:grey;
+}
+#search{
+    color:black;
+    border:1px solid black;
+}
+
+.toplogo{
+    mix-blend-mode: multiply;
+    height: 70px;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    border: none;
+    width: 70px;
+}

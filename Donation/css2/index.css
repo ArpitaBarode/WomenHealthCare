@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@media only screen and (min-device-width: 320px) and (max-device-width: 300px) {
+  body {
+    width: 100%;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #222;
+}
+/* utility class*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #303433;
+  font-size: 2vw;
+  color:#d72c6a;
+  font-weight: 550;
+
+}
+#logo{
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+    
+}
+.navbar h4 {
+    color: #EE2A71;
+    
+
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 400;
+
+}
+
+a:hover {
+ color: black;
+
+    border-bottom: 3px solid #EE2A71;
+
+}
+
+/* Home page CSS */
+/*header image Start*/
+#header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/bag1.jpg");
+  background-position: center;
+  background-size: cover;
+
+
+ 
+ 
+}
+.top{
+    left: 7rem;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+    background-color:rgb(252, 249, 249);
+    padding: 0 2em 0 1em;
+    max-width: 210px;
+    color: #e21862 ;
+
+}
+.top h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.header-box {
+  left: 11rem;
+
+ top: 49%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-bottom: 10px;
+  background-color: #e13f7b;
+border-radius: 3px;
+  padding: 0 0.8em 0 0.8em;
+    max-width: 400px;
+ 
+ 
+
+}
+.para{
+    left:5%;
+    top: 53%;
+   right: 10%;
+ position: absolute;
+    padding-top: 20px;
+    padding: 0 1em 0 3em;
+    max-width: 620px;
+   
+    background-color: #fff;
+   padding-bottom: 20px;
+    
+    
+}
+@media(max-width:700){
+    .para{
+        margin-right: 250px;
+
+    }
+    .header-box{
+        left: 0px;
+
+        
+    }
+    
+}
+
+.para p{
+    font-size: 1rem;
+    line-height: 20px;
+    padding-left: 3%;
+   padding-right: 5%;
+   font-weight: 300;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #eb3377;
+   padding-top: 20px;
+
+}
+
+.header-box h4{
+  font-size:1.3rem;
+  color: white;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  text-wrap: nowrap;
+  
+   
+  
+ 
+}
+
+/*header Image End*/
+
+
+
+
+/*Welcome Section Starts*/
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn:hover{
+  color: #fff;
+}
+/*Welcome Section End*/
+
+/*Below We teach them.....(Cards) Starts*/
+.services .container {
+  padding-bottom: 15px;
+}
+.services .icon-box {
+  text-align: center;
+  padding: 40px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  border: 1px solid rgb(222, 51, 108);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: rgb(222, 51, 108);
+}
+
+.services .icon-box .icon i {
+  font-size: 28px;
+  color: rgb(226, 72, 123);
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #36343a;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services .icon-box:hover h4 a {
+  color:  rgb(232, 81, 131);
+}
+
+.services .icon-box:hover .icon i {
+  color: #fff;
+  background-color:  rgb(222, 51, 108);
+}
+.services .icon-box .icon i:hover {
+  background-color:  rgb(225, 76, 126);
+  color: #fff;
+}
+/*Below We teach them.....(Cards) End*/
+
+/*Portfolio Section Starts || Same CSS use for Education @TRPWS*/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 0 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #444;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio .portfolio-wrap img {
+  transition: 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s;
+  text-align: center;
+  background: rgba(31, 53, 72, 0.6);
+  padding-bottom: 30px;
+}
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.portfolio .portfolio-wrap .portfolio-info a {
+  margin: 0 4px;
+  font-size: 18px;
+  line-height: 1;
+  background-color: #fff;
+  padding-top: 7px;
+  border-radius: 50px;
+  text-align: center;
+  width: 36px;
+  height: 35px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-info a:hover {
+  background: #009970;
+}
+.portfolio .portfolio-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  padding-bottom: 0;
+}
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.1);
+}
+.portfolio-details {
+  padding-top: 30px;
+}
+.portfolio-details .portfolio-details-container {
+  position: relative;
+}
+.portfolio-details .portfolio-details-carousel {
+  position: relative;
+  z-index: 1;
+}
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: left;
+}
+.portfolio-details .portfolio-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+.portfolio-details .portfolio-details-carousel .owl-dot.active {
+  background-color: #428bca !important;
+}
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.portfolio-details .portfolio-description {
+  padding-top: 50px;
+}
+.portfolio-details .portfolio-description h2 {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.portfolio-details .portfolio-description p {
+  padding: 0 0 0 0;
+}
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
+  }
+  .portfolio-details .portfolio-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
+/*Portfolio Section End*/
+
+/*Testimonial starts*/
+.testimonials {
+  padding: 20px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align:center;
+}
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.border1 {
+  width: 160px;
+  height: 5px;
+  background:rgb(216, 63, 88);
+  margin: 26px auto;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.testimonial {
+  background:#fff;
+  padding: 10px;
+  box-shadow: 5px 10px 10px #444444 ;
+}
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars {
+  color: #009970;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*Testimonial ends*/
+
+/* Home page CSS End*/
+.footer{
+    width: 100%;
+    height: 40%;
+    background-color: #566164;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7vw;
+
+}
+.footer .flogo{
+    width: 10%;
+    height: 50%;
+    
+    
+    margin-top: 4vw;
+    margin-left: 2vw;
+}
+.flogo img{
+    width: 90%;
+    height: 100%;
+    border-color: #EE2A71;
+    border-style: dashed;
+    border-radius: 50%;
+    margin-top: 0.5vw;
+
+}
+.flogo  h4{
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    color:white ;
+
+}
+.footer .connect{
+    width: 40%;
+    height: 90%;
+    position: relative;
+
+    
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.connect hr{
+   background-color: white;
+}
+.links hr{
+     background-color: white;
+}
+.connect h4{
+    text-align: center;
+    font-size: 1.6vw;
+    color: white;
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.connect .ficon{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ficon i{
+    padding: 40px 20px;
+    font-size: 2vw;
+    /*color: #EE2A71;*/
+    color: white;    
+
+}
+.connect h3{
+    text-align: center;
+    font-size: 1vw;
+    color:#EE2A71;
+    font-weight: 500;
+    padding: 20px 20px;
+}
+.footer .links{
+    width: 25%;
+    height: 90%;
+    position: relative;
+
+    
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.links h4{
+    text-align: center;
+    font-size: 1.6vw;
+    color: white;
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.links .flink{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flink a{
+    padding-top: 20px ;
+    font-size: 1vw;
+    /*color: #EE2A71;*/
+    color: white;
+
+}
+@media (max-width:600px) {
+    
+#logo{
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+    padding-left: 2px;
+}
+.footer{
+    
+        width: 100%;
+        height: 100%;
+        background-color: #6c787b;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7vw;
+    
+    
+}
+.footer .flogo{
+    width: 100%;
+    height: 20%;
+    margin-top: 1vw;
+    
+    margin-bottom: 15vw;
+    }
+.flogo img{
+    width: 40%;
+    height: 80%;
+    border-color: #EE2A71;
+    border-style: dashed;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 30vw;
+
+}
+.flogo  h4{
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 3vw;
+    font-weight: 800;
+    color:white ;
+
+}
+.footer .connect{
+    width: 100%;
+    height: 30%;
+    position: relative;
+     align-items: center;
+    margin-top: 0vw;
+    margin-left: 2vw;
+    margin-bottom: 0vw;
+}
+.connect h4{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-weight: 700;
+    padding: 5px 20px;
+
+    
+}
+.connect .ficon{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ficon i{
+    padding: 40px 10px;
+    font-size: 5vw;
+    /*color: #EE2A71;*/
+    color: white;    
+
+}
+.connect h3{
+    text-align: center;
+    font-size: 3vw;
+    color: #EE2A71;
+    font-weight: 500;
+    padding: 20px 20px;
+}
+.footer .links{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    align-items: center;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+.links h4{
+    text-align: center;
+    font-size: 5vw;
+    color:white;
+    margin-top: 0vw;
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.links .flink{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flink a{
+    padding-top: 20px ;
+    font-size: 2vw;
+    /*color: #EE2A71;*/
+    color: white;
+
+}
+}
